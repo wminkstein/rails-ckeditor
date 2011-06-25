@@ -13,7 +13,12 @@ be added to the asset pipeline and available for you to use.
 
 You can also use it standalone in your views:
 
-    <%= javascript_include_tag :ckeditor %>
+    <%= javascript_include_tag 'ckeditor/ckeditor' %>
+
+**Note:** At this moment I'm getting a "white screen of death", instead of
+using `javascript_include_tag` I'm hardcoding it:
+
+    <script src="/assets/ckeditor/ckeditor.js" type="text/javascript"></script>
 
 ### Installation
 
