@@ -6,10 +6,10 @@ Gem::Specification.new do |s|
   s.name        = "ckeditor-rails"
   s.version     = Ckeditor::Rails::VERSION
   s.authors     = ["Francesc Esplugas"]
-  s.email       = ["francesc.esplugas@gmail.com"]
+  s.email       = ["contact@francescesplugas.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{This gem provides CKEditor driver for your Rails 3 application.}
+  s.description = %q{This gem provides CKEditor driver for your Rails 3 application.}
 
   s.rubyforge_project = "ckeditor-rails"
 
