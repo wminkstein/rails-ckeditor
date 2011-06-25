@@ -9,6 +9,10 @@ be added to the asset pipeline and available for you to use.
 
     //= require ckeditor
 
+You can also use it standalone in your views:
+
+    <%= javascript_include_tag :ckeditor %>
+
 ### Installation
 
 In a Rails 3.1 apps include `ckeditor-rails` in the Gemfile:
